@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="OMODA JAECOO logo">
+  <rect width="640" height="320" fill="#ffffff"/>
+  <g fill="#050505" font-family="Arial Black, Impact, Arial, sans-serif" font-weight="900" letter-spacing="14">
+    <text x="58" y="122" font-size="76">OMODA</text>
+    <text x="58" y="235" font-size="76">JAECOO</text>
+  </g>
+  <rect x="64" y="152" width="512" height="8" fill="#ef1d25"/>
+</svg>
