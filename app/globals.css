@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #f5f5f0;
+  --muted: #a7a8a2;
+  --line: rgba(255, 255, 255, 0.14);
+  --gold: #c9a75d;
+  --silver: #d9dde2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--foreground);
+  background:
+    radial-gradient(circle at top left, rgba(201, 167, 93, 0.14), transparent 28rem),
+    linear-gradient(180deg, #050505 0%, #111211 45%, #050505 100%);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+body::selection {
+  color: #050505;
+  background: var(--silver);
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.container-lux {
+  width: min(1180px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.glass {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.045));
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(22px);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.luxury-rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.32), transparent);
+}
+
+.image-sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(115deg, transparent 0%, rgba(255, 255, 255, 0.16) 46%, transparent 58%),
+    linear-gradient(180deg, transparent 45%, rgba(0, 0, 0, 0.54) 100%);
+  mix-blend-mode: screen;
+}
+
+.masonry {
+  columns: 1;
+  column-gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .masonry {
+    columns: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry {
+    columns: 3;
+    column-gap: 1.25rem;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .masonry-item {
+    margin-bottom: 1.25rem;
+  }
+}
