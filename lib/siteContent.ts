@@ -215,7 +215,7 @@ export const defaultContent: EditableContent = {
     headline: "Rasakan Masa Depan Berkendara",
     body: "Hubungi Sucia untuk ketersediaan unit, konsultasi kendaraan, dan jadwal test drive privat OMODA JAECOO.",
     button: "Hubungi Sucia",
-    whatsapp: "https://wa.me/628958560157"
+    whatsapp: "https://wa.me/6289658560157"
   },
   gallery: [
     "/J5_1_2e7da5b171.jpegw3840q75.webp",

@@ -16,7 +16,7 @@ export function Footer() {
             </p>
             <p className="flex items-center gap-3">
               <Phone className="h-4 w-4 text-[#c9a75d]" aria-hidden="true" />
-              +62 895 8560 157
+              +62 8965 8560 157
             </p>
           </div>
         </div>
